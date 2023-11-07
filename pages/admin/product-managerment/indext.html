@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="../../../global.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header__admin">
+        <img
+          src="https://icon-library.com/images/default-user-icon/default-user-icon-13.jpg"
+          alt=""
+        />
+        <p>Role: Admin</p>
+        <p>Nguyễn Văn A</p>
+        <button class="header__admin-buttom"><a href="">Edit</a></button>
+      </div>
+
+      <div class="header__nav">
+        <ul class="header__nav-ul">
+          <li class="header__nav-ul-li">
+            <a href="">
+              <i class="fa-solid fa-bars fa-lg"></i>
+              Dashboard
+            </a>
+          </li>
+          <li class="header__nav-ul-li">
+            <a href="">
+              <i class="fa-solid fa-users fa-lg"></i>
+              Users
+            </a>
+          </li>
+          <li class="header__nav-ul-li">
+            <a href="">
+              <i class="fa-solid fa-boxes-stacked"></i>
+              Products
+            </a>
+          </li>
+          <li class="header__nav-ul-li">
+            <a href="">
+              <i class="fa-solid fa-file-invoice-dollar fa-lg"></i>
+              Orders
+            </a>
+          </li>
+          <li class="header__nav-ul-li">
+            <a href="">
+              <i class="fa-solid fa-comments fa-lg"></i>
+              Reviews
+            </a>
+          </li>
+          <li class="header__nav-ul-li">
+            <a href="">
+              <i class="fa-solid fa-images fa-lg"></i>
+              Banners
+            </a>
+          </li>
+          <li class="header__nav-ul-li">
+            <a href="">
+              <i class="fa-solid fa-medal fa-lg"></i>
+              Vouchers
+            </a>
+          </li>
+          <li class="header__nav-ul-li">
+            <a href="">
+              <i class="fa-solid fa-right-from-bracket fa-lg"></i>
+              Logout
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="section1">
+        <p class="p-heading">Overview</p>
+        <div class="container1">
+          <div class="container1__users">
+            <div class="container1__users-heading">
+              <i class="fa-solid fa-users fa-lg" style="color: #ffff"></i>
+              <p>Users</p>
+            </div>
+            <p>10</p>
+          </div>
+
+          <div class="container1__users2">
+            <i class="fa-solid fa-users fa-lg" style="color: #ffff"></i>
+            <p>Users</p>
+            <p>10</p>
+          </div>
+
+          <div class="container1__users3">
+            <i class="fa-solid fa-users fa-lg" style="color: #ffff"></i>
+            <p>Users</p>
+            <p>10</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section2">
+        <form class="form1">
+          <p>List Of Users</p>
+          <div class="form1__search">
+            <input id="name" type="name" placeholder="Search by name" />
+            <button class="form1__search-button">
+              <a href="">
+                <i
+                  class="fa-solid fa-magnifying-glass fa-lg"
+                  style="color: #0d0d0d"
+                ></i>
+              </a>
+            </button>
+          </div>
+
+          <table class="form1__table" cellspacing="0" cellpadding="0">
+            <thead>
+              <tr class="form1__table-heading">
+                <th style="width: 50px">#</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Full name</th>
+                <th>Address</th>
+                <th style="width: 100px">Status</th>
+                <th style="width: 170px">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="form1__table-row">
+                <td>1</td>
+                <td>user_01</td>
+                <td>nguyenvana@gmail.com</td>
+                <td>Nguyễn Văn A</td>
+                <td>Đà Nẵng</td>
+                <td>Active</td>
+                <td>
+                  <button class="button1-form1__table-row">
+                    <a href="">View</a>
+                  </button>
+                  <button class="button2-form1__table-row">
+                    <a href="">Block</a>
+                  </button>
+                </td>
+              </tr>
+              <tr class="form1__table-row">
+                <td>2</td>
+                <td>user_02</td>
+                <td>nguyenvana@gmail.com</td>
+                <td>Nguyễn Văn B</td>
+                <td>Đà Nẵng</td>
+                <td>Active</td>
+                <td>
+                  <button class="button1-form1__table-row">
+                    <a href="">View</a>
+                  </button>
+                  <button class="button2-form1__table-row">
+                    <a href="">Block</a>
+                  </button>
+                </td>
+              </tr>
+              <tr class="form1__table-row">
+                <td>3</td>
+                <td>user_03</td>
+                <td>nguyenvana@gmail.com</td>
+                <td>Nguyễn Văn C</td>
+                <td>Đà Nẵng</td>
+                <td>Active</td>
+                <td>
+                  <button class="button1-form1__table-row">
+                    <a href="">View</a>
+                  </button>
+                  <button class="button2-form1__table-row">
+                    <a href="">Block</a>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+
+        <form class="form2">
+          <div class="form2__heading">
+            <p>List Of Admin</p>
+            <button class="form2__heading-button">
+              <a href="">Add new admin</a>
+            </button>
+          </div>
+          <div class="form1__search">
+            <input id="name" type="name" placeholder="Search by name" />
+            <button class="form1__search-button">
+              <a href="">
+                <i
+                  class="fa-solid fa-magnifying-glass fa-lg"
+                  style="color: #0d0d0d"
+                ></i>
+              </a>
+            </button>
+          </div>
+
+          <table class="form1__table" cellspacing="0" cellpadding="0">
+            <thead>
+              <tr class="form1__table-heading">
+                <th style="width: 50px">#</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Full name</th>
+                <th>Role</th>
+
+                <th style="width: 220px">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="form1__table-row">
+                <td>1</td>
+                <td>user_01</td>
+                <td>nguyenvana@gmail.com</td>
+                <td>Nguyễn Văn A</td>
+                <td>Đà Nẵng</td>
+
+                <td>
+                  <button class="button1-form1__table-row">
+                    <a href="">View</a>
+                  </button>
+                  <button class="button3-form1__table-row">
+                    <a href="">Edit</a>
+                  </button>
+                  <button class="button2-form1__table-row">
+                    <a href="">Block</a>
+                  </button>
+                </td>
+              </tr>
+              <tr class="form1__table-row">
+                <td>2</td>
+                <td>user_02</td>
+                <td>nguyenvana@gmail.com</td>
+                <td>Nguyễn Văn B</td>
+                <td>Đà Nẵng</td>
+
+                <td>
+                  <button class="button1-form1__table-row">
+                    <a href="">View</a>
+                  </button>
+                  <button class="button3-form1__table-row">
+                    <a href="">Edit</a>
+                  </button>
+                  <button class="button2-form1__table-row">
+                    <a href="">Block</a>
+                  </button>
+                </td>
+              </tr>
+              <tr class="form1__table-row">
+                <td>3</td>
+                <td>user_03</td>
+                <td>nguyenvana@gmail.com</td>
+                <td>Nguyễn Văn C</td>
+                <td>Đà Nẵng</td>
+
+                <td>
+                  <button class="button1-form1__table-row">
+                    <a href="">View</a>
+                  </button>
+                  <button class="button3-form1__table-row">
+                    <a href=""> Edit</a>
+                  </button>
+                  <button class="button2-form1__table-row">
+                    <a href="">Block</a>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </section>
+
+      <section class="section3">
+        <form class="form2">
+          <div class="form2__heading">
+            <p>List Of Admin</p>
+            <button class="form2__heading-button">
+              <a href="">Add new admin</a>
+            </button>
+          </div>
+          <div class="form1__search">
+            <input id="name" type="name" placeholder="Search by name" />
+            <button class="form1__search-button">
+              <a href="">
+                <i
+                  class="fa-solid fa-magnifying-glass fa-lg"
+                  style="color: #0d0d0d"
+                ></i>
+              </a>
+            </button>
+          </div>
+
+          <table class="form1__table" cellspacing="0" cellpadding="0">
+            <thead>
+              <tr class="form1__table-heading">
+                <th style="width: 50px">#</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Full name</th>
+                <th>Role</th>
+
+                <th style="width: 220px">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="form1__table-row">
+                <td>1</td>
+                <td>user_01</td>
+                <td>nguyenvana@gmail.com</td>
+                <td>Nguyễn Văn A</td>
+                <td>Đà Nẵng</td>
+
+                <td>
+                  <button class="button1-form1__table-row">
+                    <a href="">View</a>
+                  </button>
+                  <button class="button3-form1__table-row">
+                    <a href="">Edit</a>
+                  </button>
+                  <button class="button2-form1__table-row">
+                    <a href="">Block</a>
+                  </button>
+                </td>
+              </tr>
+              <tr class="form1__table-row">
+                <td>2</td>
+                <td>user_02</td>
+                <td>nguyenvana@gmail.com</td>
+                <td>Nguyễn Văn B</td>
+                <td>Đà Nẵng</td>
+
+                <td>
+                  <button class="button1-form1__table-row">
+                    <a href="">View</a>
+                  </button>
+                  <button class="button3-form1__table-row">
+                    <a href="">Edit</a>
+                  </button>
+                  <button class="button2-form1__table-row">
+                    <a href="">Block</a>
+                  </button>
+                </td>
+              </tr>
+              <tr class="form1__table-row">
+                <td>3</td>
+                <td>user_03</td>
+                <td>nguyenvana@gmail.com</td>
+                <td>Nguyễn Văn C</td>
+                <td>Đà Nẵng</td>
+
+                <td>
+                  <button class="button1-form1__table-row">
+                    <a href="">View</a>
+                  </button>
+                  <button class="button3-form1__table-row">
+                    <a href=""> Edit</a>
+                  </button>
+                  <button class="button2-form1__table-row">
+                    <a href="">Block</a>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

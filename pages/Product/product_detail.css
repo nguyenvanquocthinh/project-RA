@@ -1,0 +1,11 @@
+body {
+  background-color: var(--xam);
+}
+
+.container1 img {
+  width: 448px;
+}
+
+.picture__small img {
+  width: 84px;
+}

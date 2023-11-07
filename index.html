@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./components/header/header.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./components/footer/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Noto+Sans:wght@100;200;300;400;500;600;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header id="header">
+      <section class="header">
+        <div class="header__logo">
+          <img
+            src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/logo.png?1688958482989"
+            alt=""
+          />
+        </div>
+
+        <div class="header__search">
+          <div class="header__search-text">
+            <input type="text" id="text" placeholder="Bạn cần tìm gì.." />
+          </div>
+          <div class="header__search-button">
+            <button>
+              <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="header__information">
+          <div class="header__information-phone">
+            <div class="header__information-phone-img">
+              <img
+                src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/phone-icon.png?1688958482989"
+                alt=""
+              />
+            </div>
+            <div class="header__information-phone-content">
+              <a href="">
+                <p>Gọi mua hàng</p>
+                <p
+                  class="header__information-phone-content-p"
+                  style="font-weight: 800"
+                >
+                  19006750
+                </p>
+              </a>
+            </div>
+          </div>
+
+          <div class="header__information-address">
+            <div class="header__information-address-img">
+              <img
+                src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/address-icon.png?1688958482989"
+                alt=""
+              />
+            </div>
+            <div class="header__information-address-content">
+              <a href="">
+                <p>
+                  Hệ thống <br />
+                  cửa hàng
+                </p>
+              </a>
+            </div>
+          </div>
+
+          <div class="header__information-log-in">
+            <div class="header__information-log-in-img">
+              <img
+                src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/account-icon.png?1688958482989"
+                alt=""
+              />
+            </div>
+            <div class="header__information-log-in-content">
+              <a href="./pages/auth/login/index.html">
+                <p>Tài Khoản</p>
+                <p class="header__information-log-in-content-p">đăng nhập</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="header__cart">
+          <button>
+            <a class="header__cart-button-a" href="">
+              <img
+                src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/cart-icon.png?1688958482989"
+                alt=""
+              />
+              <p>0</p>
+              <span>Giỏ hàng</span>
+            </a>
+          </button>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="container1">
+        <nav class="container1__menu">
+          <div class="container1__menu-title">
+            <i class="fa-solid fa-bars fa-lg" style="color: #ffffff"></i>
+            <p>DANH MỤC SẢN PHẨM</p>
+          </div>
+          <div class="container__menu-list">
+            <ul>
+              <li>
+                <a class="container__menu-a1" href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/menu_icon_1.png?1688958482989"
+                    alt=""
+                  />
+                  Tổng hợp khuyến mãi</a
+                >
+              </li>
+              <li class="container__menu-list-li">
+                <img
+                  src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/menu_icon_2.png?1688958482989"
+                  alt=""
+                />
+                <a class="container__menu-list-a" href="" style="gap: 154px"
+                  >Điện thoại
+
+                  <i
+                    class="fa-solid fa-chevron-right fa-sm"
+                    style="color: #000000"
+                  ></i>
+                </a>
+                <ul class="container__menu-list-sub">
+                  <li>Điện thoại Apple</li>
+                  <li>Điện thoại Samsung</li>
+                  <li>Điện thoại Oppo</li>
+                  <li>Điện thoại Samsung</li>
+                </ul>
+              </li>
+
+              <li class="container__menu-list-li">
+                <img
+                  src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/menu_icon_3.png?1688958482989"
+                  alt=""
+                />
+                <a class="container__menu-list-a" href="" style="gap: 129px"
+                  >Máy tính bảng
+                  <i
+                    class="fa-solid fa-chevron-right fa-sm"
+                    style="color: #000000"
+                  ></i>
+                </a>
+                <ul class="container__menu-list-sub">
+                  <li>Máy tính bảng Ipad</li>
+                  <li>Máy tính bảng Samsung</li>
+                  <li>Máy tính bảng Asus</li>
+                  <li></li>
+                </ul>
+              </li>
+
+              <li class="container__menu-list-li">
+                <img
+                  src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/menu_icon_4.png?1688958482989"
+                  alt=""
+                />
+                <a class="container__menu-list-a" href="" style="gap: 168px"
+                  >Tai nghe
+                  <i
+                    class="fa-solid fa-chevron-right fa-sm"
+                    style="color: #000000"
+                  ></i>
+                </a>
+                <ul class="container__menu-list-sub">
+                  <li>Tai nghe Oppo</li>
+                  <li>Tai nghe Samsung</li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </li>
+
+              <li class="container__menu-list-li">
+                <img
+                  src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/menu_icon_5.png?1688958482989"
+                  alt=""
+                />
+                <a class="container__menu-list-a" href="" style="gap: 135px"
+                  >Smart Watch
+                  <i
+                    class="fa-solid fa-chevron-right fa-sm"
+                    style="color: #000000"
+                  ></i>
+                </a>
+                <ul class="container__menu-list-sub">
+                  <li>Tai nghe Oppo</li>
+                  <li>Tai nghe Samsung</li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </li>
+
+              <li class="container__menu-list-li">
+                <img
+                  src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/menu_icon_6.png?1688958482989"
+                  alt=""
+                />
+                <a class="container__menu-list-a" href="" style="gap: 130px"
+                  >Sạc dự phòng
+                  <i
+                    class="fa-solid fa-chevron-right fa-sm"
+                    style="color: #000000"
+                  ></i
+                ></a>
+                <ul class="container__menu-list-sub">
+                  <li>Tai nghe Oppo</li>
+                  <li>Tai nghe Samsung</li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </li>
+
+              <li class="container__menu-list-li">
+                <img
+                  src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/menu_icon_7.png?1688958482989"
+                  alt=""
+                />
+                <a class="container__menu-list-a" href="" style="gap: 128px"
+                  >Loa bluetooth
+                  <i
+                    class="fa-solid fa-chevron-right fa-sm"
+                    style="color: #000000"
+                  ></i
+                ></a>
+                <ul class="container__menu-list-sub">
+                  <li>Tai nghe Oppo</li>
+                  <li>Tai nghe Samsung</li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </li>
+
+              <li>
+                <a class="container__menu-a2" href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/menu_icon_8.png?1688958482989"
+                    alt=""
+                  />
+                  Ốp lưng</a
+                >
+              </li>
+              <li>
+                <a class="container__menu-a2" href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/menu_icon_9.png?1688958482989"
+                    alt=""
+                  />
+                  Củ sạc</a
+                >
+              </li>
+              <li>
+                <img
+                  src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/menu_icon_10.png?1688958482989"
+                  alt=""
+                />
+                <a class="container__menu-a2" href="">Cáp sạc</a>
+              </li>
+
+              <li class="container__menu-list-li">
+                <img
+                  src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/menu_icon_11.png?1688958482989"
+                  alt=""
+                />
+                <a class="container__menu-list-a" href="" style="gap: 91px"
+                  >Phụ kiện điện thoại
+                  <i
+                    class="fa-solid fa-chevron-right fa-sm"
+                    style="color: #000000"
+                  ></i
+                ></a>
+                <ul class="container__menu-list-sub">
+                  <li>Tai nghe Oppo</li>
+                  <li>Tai nghe Samsung</li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </li>
+              <li>
+                <a class="container__menu-a3" href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/menu_icon_12.png?1688958482989"
+                    alt=""
+                  />
+                  Thu cũ đổi mới</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="container1__introduce">
+          <div class="container1__icon">
+            <div class="container1__icon-subport">
+              <img
+                src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/policy_header_image_1.png?1688958482989"
+                alt=""
+              />
+              <span>Hướng dẫn bán máy cũ</span>
+            </div>
+            <div class="container1__icon-cart">
+              <img
+                src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/policy_header_image_2.png?1688958482989"
+                alt=""
+              />
+              <span>Hướng dẫn mua online</span>
+            </div>
+            <div class="container1__icon-pay">
+              <img
+                src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/policy_header_image_3.png?1688958482989"
+                alt=""
+              />
+              <span>Hướng dẫn trả góp</span>
+            </div>
+          </div>
+
+          <div class="container1__introduce-product">
+            <div class="container1__introduce-product-big">
+              <img
+                src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/slider_1.jpg?1688958482989"
+                alt=""
+              />
+            </div>
+
+            <div class="container1__introduce-product-small">
+              <img
+                src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/bottom_banner_1.jpg?1688958482989"
+                alt=""
+              />
+              <img
+                src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/bottom_banner_2.jpg?1688958482989"
+                alt=""
+              />
+              <img
+                src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/bottom_banner_3.jpg?1688958482989"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container2">
+        <div class="container2-icon">
+          <img
+            src="https://bizweb.dktcdn.net/thumb/small/100/441/086/themes/896335/assets/coll_1.jpg?1688958482989"
+            alt=""
+          />
+          <p>
+            <a class="container2__icon-a" href="">Nổi bật</a>
+          </p>
+        </div>
+        <div class="container2-icon">
+          <img
+            src="https://bizweb.dktcdn.net/thumb/small/100/441/086/themes/896335/assets/coll_2.jpg?1688958482989"
+            alt=""
+          />
+          <p>
+            <a class="container2__icon-a" href="">Điện thoại</a>
+          </p>
+        </div>
+        <div class="container2-icon">
+          <img
+            src="https://bizweb.dktcdn.net/thumb/small/100/441/086/themes/896335/assets/coll_3.jpg?1688958482989"
+            alt=""
+          />
+          <p>
+            <a class="container2__icon-a" href=""> Máy tính bảng</a>
+          </p>
+        </div>
+        <div class="container2-icon">
+          <img
+            src="https://bizweb.dktcdn.net/thumb/small/100/441/086/themes/896335/assets/coll_4.jpg?1688958482989"
+            alt=""
+          />
+          <p>
+            <a class="container2__icon-a" href="">Tai nghe</a>
+          </p>
+        </div>
+        <div class="container2-icon">
+          <img
+            src="https://bizweb.dktcdn.net/thumb/small/100/441/086/themes/896335/assets/coll_5.jpg?1688958482989"
+            alt=""
+          />
+          <p>
+            <a class="container2__icon-a" href="">Smart Watch</a>
+          </p>
+        </div>
+        <div class="container2-icon">
+          <img
+            src="https://bizweb.dktcdn.net/thumb/small/100/441/086/themes/896335/assets/coll_6.jpg?1688958482989"
+            alt=""
+          />
+          <p>
+            <a class="container2__icon-a" href="">Sạc dự phòng</a>
+          </p>
+        </div>
+        <div class="container2-icon">
+          <img
+            src="https://bizweb.dktcdn.net/thumb/small/100/441/086/themes/896335/assets/coll_7.jpg?1688958482989"
+            alt=""
+          />
+          <p>
+            <a class="container2__icon-a" href="">Loa bluetooth</a>
+          </p>
+        </div>
+        <div class="container2-icon">
+          <img
+            src="https://bizweb.dktcdn.net/thumb/small/100/441/086/themes/896335/assets/coll_8.jpg?1688958482989"
+            alt=""
+          />
+          <p>
+            <a class="container2__icon-a" href="">Ốp lưng</a>
+          </p>
+        </div>
+        <div class="container2-icon">
+          <img
+            src="https://bizweb.dktcdn.net/thumb/small/100/441/086/themes/896335/assets/coll_9.jpg?1688958482989"
+            alt=""
+          />
+          <p>
+            <a class="container2__icon-a" href="">Củ sạc</a>
+          </p>
+        </div>
+        <div class="container2-icon">
+          <img
+            src="https://bizweb.dktcdn.net/thumb/small/100/441/086/themes/896335/assets/coll_10.jpg?1688958482989"
+            alt=""
+          />
+          <p>
+            <a class="container2__icon-a" href="">Phụ kiện</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="container4"></section>
+
+      <section class="container3">
+        <div class="container3__heading">
+          <p class="container3__heading-title">
+            <a href="">ĐIỆN THOẠI NỔI BẬT NHẤT</a>
+          </p>
+        </div>
+
+        <div class="container3__items">
+          <div class="container3__items-hot">
+            <a href="">
+              <picture>
+                <img
+                  src="https://bizweb.dktcdn.net/thumb/grande/100/441/086/themes/896335/assets/section_hot.jpg?1688958482989"
+                  alt=""
+                />
+              </picture>
+            </a>
+          </div>
+
+          <div class="container3__items-productmain">
+            <form>
+              <figure class="container3__items-productmain1">
+                <span>Trả góp 0%</span>
+                <a href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/571947601-jpeg.jpg?v=1639734159007"
+                    alt=""
+                  />
+                </a>
+                <figcaption>
+                  <div class="container3__items-productname">
+                    <p class="container3__items-productname-size">
+                      Điện thoại iPhone 13
+                    </p>
+
+                    <p class="container3__items-productname-color">
+                      24.490.000₫
+                    </p>
+                    <p class="container3__items-productname-sadow">
+                      Tặng gói bảo hành Gold trị giá 300K
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </form>
+          </div>
+
+          <div class="container3__items-productmain">
+            <form>
+              <figure class="container3__items-productmain1">
+                <span>Trả góp 0%</span>
+                <a href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/samsung-galaxy-note-10-lite-trang-new-600x600-600x600.jpg?v=1639827050850"
+                    alt=""
+                  />
+                </a>
+                <figcaption>
+                  <div class="container3__items-productname">
+                    <p class="container3__items-productname-size">
+                      Samsung Galaxy Note 10 Lite
+                    </p>
+
+                    <p class="container3__items-productname-color">
+                      18.000.000₫
+                    </p>
+                    <p class="container3__items-productname-sadow">
+                      Tặng gói bảo hành Gold trị giá 300K
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </form>
+          </div>
+
+          <div class="container3__items-productmain">
+            <form>
+              <figure class="container3__items-productmain1">
+                <span>Trả góp 0%</span>
+                <a href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/98608353-jpeg.jpg?v=1639818558773"
+                    alt=""
+                  />
+                </a>
+                <figcaption>
+                  <div class="container3__items-productname">
+                    <p class="container3__items-productname-size">
+                      OPPO Find X3 Pro 5G
+                    </p>
+
+                    <p class="container3__items-productname-color">
+                      23.999.000d
+                    </p>
+                    <p class="container3__items-productname-sadow">
+                      Tặng gói bảo hành Gold trị giá 300K
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </form>
+          </div>
+
+          <div class="container3__items-productmain">
+            <form>
+              <figure class="container3__items-productmain1">
+                <span>Trả góp 0%</span>
+                <a href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/iphone-xi-do-600x600.jpg?v=1639878154720"
+                    alt=""
+                  />
+                </a>
+                <figcaption>
+                  <div class="container3__items-productname">
+                    <p class="container3__items-productname-size">iPhone XR</p>
+
+                    <p class="container3__items-productname-color">
+                      14.990.000₫
+                    </p>
+                    <p class="container3__items-productname-sadow">
+                      Tặng gói bảo hành Gold trị giá 300K
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </form>
+          </div>
+
+          <div class="container3__items-productmain">
+            <form>
+              <figure class="container3__items-productmain1">
+                <span>Trả góp 0%</span>
+                <a href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/780289748-jpeg.jpg?v=1639816065997"
+                    alt=""
+                  />
+                </a>
+                <figcaption>
+                  <div class="container3__items-productname">
+                    <p class="container3__items-productname-size">
+                      Samsung Galaxy Z Fold3
+                    </p>
+
+                    <p class="container3__items-productname-color">
+                      41.999.000₫
+                    </p>
+                    <p class="container3__items-productname-sadow">
+                      Tặng gói bảo hành Gold trị giá 300K
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </form>
+          </div>
+
+          <div class="container3__items-productmain">
+            <form>
+              <figure class="container3__items-productmain1">
+                <span>Trả góp 0%</span>
+                <a href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/804550540-jpeg.jpg?v=1639817905253"
+                    alt=""
+                  />
+                </a>
+                <figcaption>
+                  <div class="container3__items-productname">
+                    <p class="container3__items-productname-size">
+                      Điện thoại OPPO A95
+                    </p>
+
+                    <p class="container3__items-productname-color">
+                      6.999.000₫
+                    </p>
+                    <p class="container3__items-productname-sadow">
+                      Tặng gói bảo hành Gold trị giá 300K
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </form>
+          </div>
+
+          <div class="container3__items-productmain">
+            <form>
+              <figure class="container3__items-productmain1">
+                <span>Trả góp 0%</span>
+                <a href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/433179008-jpeg.jpg?v=1639817401933"
+                    alt=""
+                  />
+                </a>
+                <figcaption>
+                  <div class="container3__items-productname">
+                    <p class="container3__items-productname-size">
+                      Samsung Galaxy A32 5G
+                    </p>
+
+                    <p class="container3__items-productname-color">
+                      6.090.000₫
+                    </p>
+                    <p class="container3__items-productname-sadow">
+                      Tặng gói bảo hành Gold trị giá 300K
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </form>
+          </div>
+
+          <div class="container3__items-productmain">
+            <form>
+              <figure class="container3__items-productmain1">
+                <span>Trả góp 0%</span>
+                <a href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/205892029-jpeg.jpg?v=1639732873610"
+                    alt=""
+                  />
+                </a>
+                <figcaption>
+                  <div class="container3__items-productname">
+                    <p class="container3__items-productname-size">
+                      Samsung Galaxy Z Flip3 5G
+                    </p>
+
+                    <p class="container3__items-productname-color">
+                      24.990.000₫
+                    </p>
+                    <p class="container3__items-productname-sadow">
+                      Tặng gói bảo hành Gold trị giá 300K
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </form>
+          </div>
+        </div>
+
+        <div class="container3__button">
+          <button>
+            <a class="container3__button-a" href=""
+              >Xem tất cả
+              <i
+                class="fa-solid fa-angle-right fa-sm"
+                style="color: var(--red)"
+              >
+              </i>
+            </a>
+          </button>
+        </div>
+      </section>
+
+      <section class="container5">
+        <div class="container__item1">
+          <a href="">
+            <img
+              src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/banner_coll_1_1.jpg?1688958482989"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="container__item2">
+          <a href="">
+            <img
+              src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/banner_coll_1_2.jpg?1688958482989"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="container__item3">
+          <a href="">
+            <img
+              src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/banner_coll_1_3.jpg?1688958482989"
+              alt=""
+            />
+          </a>
+        </div>
+      </section>
+
+      <section class="container6">
+        <p class="container6__heading">ĐỒNG HỒ THÔNG MINH</p>
+
+        <div class="container6__menu">
+          <button class="container6__menu-button">
+            <a href="">Tổng hợp khuyến mãi</a>
+          </button>
+          <button class="container6__menu-button">
+            <a href="">Điện thoại</a>
+          </button>
+          <button class="container6__menu-button">
+            <a href="">Máy tính bảng</a>
+          </button>
+        </div>
+
+        <div class="container6__item">
+          <div class="container6__item-infor">
+            <img
+              src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/section_product_tag_1_banner.jpg?1688958482989"
+              alt=""
+            />
+            <div class="container6__item-infor-button">
+              <button class="container6__item-infor-button1">
+                <a href="">Apple watch</a>
+              </button>
+              <button class="container6__item-infor-button1">
+                <a href="">Mi watch</a>
+              </button>
+              <button class="container6__item-infor-button1">
+                <a href="">Samsung watch</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="container6__item-product">
+            <div class="container3__items-productmain">
+              <form>
+                <figure class="container3__items-productmain1">
+                  <span>Trả góp 0%</span>
+                  <a href="">
+                    <img
+                      src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/samsung-galaxy-fit-r370-thumb-600x600.jpg?v=1639826600170"
+                      alt=""
+                    />
+                  </a>
+                  <figcaption>
+                    <div class="container3__items-productname">
+                      <p class="container3__items-productname-size">
+                        Samsung Galaxy Fit R370
+                      </p>
+
+                      <p class="container3__items-productname-color">
+                        2.490.000₫
+                      </p>
+                      <p class="container3__items-productname-sadow">
+                        Tặng gói bảo hành Gold trị giá 300K
+                      </p>
+                    </div>
+                  </figcaption>
+                </figure>
+              </form>
+            </div>
+
+            <div class="container3__items-productmain">
+              <form>
+                <figure class="container3__items-productmain1">
+                  <span>Trả góp 0%</span>
+                  <a href="">
+                    <img
+                      src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/venu-2-day-silicone-xanh-thumb-3-600x600.jpg?v=1639825802160"
+                      alt=""
+                    />
+                  </a>
+                  <figcaption>
+                    <div class="container3__items-productname">
+                      <p class="container3__items-productname-size">
+                        Garmin Forerunner 245 Music dây Silicone
+                      </p>
+
+                      <p class="container3__items-productname-color">
+                        8.990.000₫
+                      </p>
+                      <!-- <p class="container3__items-productname-sadow">
+                        Tặng gói bảo hành Gold trị giá 300K
+                      </p> -->
+                    </div>
+                  </figcaption>
+                </figure>
+              </form>
+            </div>
+
+            <div class="container3__items-productmain">
+              <form>
+                <figure class="container3__items-productmain1">
+                  <span>Trả góp 0%</span>
+                  <a href="">
+                    <img
+                      src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/garmin-fenix-6s-pro-solar-day-silicone-thumb-mau-600x600.jpg?v=1639824637187"
+                      alt=""
+                    />
+                  </a>
+                  <figcaption>
+                    <div class="container3__items-productname">
+                      <p class="container3__items-productname-size">
+                        Garmin Fenix 6S Pro Solar dây Silicone
+                      </p>
+
+                      <p class="container3__items-productname-color">
+                        21.390.000₫
+                      </p>
+                      <!-- <p class="container3__items-productname-sadow">
+                        Tặng gói bảo hành Gold trị giá 300K
+                      </p> -->
+                    </div>
+                  </figcaption>
+                </figure>
+              </form>
+            </div>
+
+            <div class="container3__items-productmain">
+              <form>
+                <figure class="container3__items-productmain1">
+                  <span>Trả góp 0%</span>
+                  <a href="">
+                    <img
+                      src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/garmin-fenix-6-day-silicone-thumb-1-1-600x600.jpg?v=1639824280397"
+                      alt=""
+                    />
+                  </a>
+                  <figcaption>
+                    <div class="container3__items-productname">
+                      <p class="container3__items-productname-size">
+                        Garmin Fenix 6–Titanium with Ember Orange Band
+                      </p>
+
+                      <p class="container3__items-productname-color">
+                        22.490.000₫
+                      </p>
+                      <!-- <p class="container3__items-productname-sadow">
+                        Tặng gói bảo hành Gold trị giá 300K
+                      </p> -->
+                    </div>
+                  </figcaption>
+                </figure>
+              </form>
+            </div>
+
+            <div class="container3__items-productmain">
+              <form>
+                <figure class="container3__items-productmain1">
+                  <span>Trả góp 0%</span>
+                  <a href="">
+                    <img
+                      src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/apple-watch-se-lte-44mm-vien-nhom-day-cao-su-hong-thumb-600x600.jpg?v=1639825738667"
+                      alt=""
+                    />
+                  </a>
+                  <figcaption>
+                    <div class="container3__items-productname">
+                      <p class="container3__items-productname-size">
+                        Apple Watch SE GPS
+                      </p>
+
+                      <p class="container3__items-productname-color">
+                        8.990.000₫
+                      </p>
+                      <p class="container3__items-productname-sadow">
+                        Tặng gói bảo hành Gold trị giá 300K
+                      </p>
+                    </div>
+                  </figcaption>
+                </figure>
+              </form>
+            </div>
+
+            <div class="container3__items-productmain">
+              <form>
+                <figure class="container3__items-productmain1">
+                  <span>Trả góp 0%</span>
+                  <a href="">
+                    <img
+                      src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/mi-watch-den-thumb-600x600.jpg?v=1639822967730"
+                      alt=""
+                    />
+                  </a>
+                  <figcaption>
+                    <div class="container3__items-productname">
+                      <p class="container3__items-productname-size">
+                        Xiaomi Mi Watch
+                      </p>
+
+                      <p class="container3__items-productname-color">
+                        3.490.000₫
+                      </p>
+                      <p class="container3__items-productname-sadow">
+                        Tặng gói bảo hành Gold trị giá 300K
+                      </p>
+                    </div>
+                  </figcaption>
+                </figure>
+              </form>
+            </div>
+
+            <div class="container3__items-productmain">
+              <form>
+                <figure class="container3__items-productmain1">
+                  <span>Trả góp 0%</span>
+                  <a href="">
+                    <img
+                      src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/mi-band-4-thumb-600x600-fd5735e7-2259-468a-a0d1-b23d95e50af8.jpg?v=1639825908550"
+                      alt=""
+                    />
+                  </a>
+                  <figcaption>
+                    <div class="container3__items-productname">
+                      <p class="container3__items-productname-size">
+                        Xiaomi Mi Band 6
+                      </p>
+
+                      <p class="container3__items-productname-color">
+                        1.290.000₫
+                      </p>
+                      <p class="container3__items-productname-sadow">
+                        Tặng gói bảo hành Gold trị giá 300K
+                      </p>
+                    </div>
+                  </figcaption>
+                </figure>
+              </form>
+            </div>
+
+            <div class="container3__items-productmain">
+              <form>
+                <figure class="container3__items-productmain1">
+                  <span>Trả góp 0%</span>
+                  <a href="">
+                    <img
+                      src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/apple-watch-s7-gps-45mm-xanh-la-thumb-660x600.jpg?v=1639821419160"
+                      alt=""
+                    />
+                  </a>
+                  <figcaption>
+                    <div class="container3__items-productname">
+                      <p class="container3__items-productname-size">
+                        Apple Watch Series 7 Viền nhôm Cellular
+                      </p>
+
+                      <p class="container3__items-productname-color">
+                        20.490.000₫
+                      </p>
+                      <!-- <p class="container3__items-productname-sadow">
+                        Tặng gói bảo hành Gold trị giá 300K
+                      </p> -->
+                    </div>
+                  </figcaption>
+                </figure>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container7">
+        <a href="">
+          <img
+            src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/section_hot_banner.png?1688958482989"
+            alt=""
+          />
+        </a>
+      </section>
+
+      <section class="container8">
+        <div class="contaier8__infor">
+          <p class="contaier8__infor-heading">PHỤ KIỆN ĐIỆN THOẠI</p>
+          <div class="contaier8__infor-button">
+            <button class="contaier8__infor-button1">
+              <a href="">Cáp sạc</a>
+            </button>
+            <button class="contaier8__infor-button1">
+              <a href="">Củ sạc</a>
+            </button>
+            <button class="contaier8__infor-button1">
+              <a href="">Miếng dán màn hình</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="container8__item">
+          <div class="container3__items-productmain">
+            <form>
+              <figure class="container3__items-productmain1">
+                <span>Trả góp 0%</span>
+                <a href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/571947601-jpeg.jpg?v=1639734159007"
+                    alt=""
+                  />
+                </a>
+                <figcaption>
+                  <div class="container3__items-productname">
+                    <p class="container3__items-productname-size">
+                      Điện thoại iPhone 13
+                    </p>
+
+                    <p class="container3__items-productname-color">
+                      24.490.000₫
+                    </p>
+                    <p class="container3__items-productname-sadow">
+                      Tặng gói bảo hành Gold trị giá 300K
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </form>
+          </div>
+
+          <div class="container3__items-productmain">
+            <form>
+              <figure class="container3__items-productmain1">
+                <span>Trả góp 0%</span>
+                <a href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/571947601-jpeg.jpg?v=1639734159007"
+                    alt=""
+                  />
+                </a>
+                <figcaption>
+                  <div class="container3__items-productname">
+                    <p class="container3__items-productname-size">
+                      Điện thoại iPhone 13
+                    </p>
+
+                    <p class="container3__items-productname-color">
+                      24.490.000₫
+                    </p>
+                    <p class="container3__items-productname-sadow">
+                      Tặng gói bảo hành Gold trị giá 300K
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </form>
+          </div>
+
+          <div class="container3__items-productmain">
+            <form>
+              <figure class="container3__items-productmain1">
+                <span>Trả góp 0%</span>
+                <a href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/571947601-jpeg.jpg?v=1639734159007"
+                    alt=""
+                  />
+                </a>
+                <figcaption>
+                  <div class="container3__items-productname">
+                    <p class="container3__items-productname-size">
+                      Điện thoại iPhone 13
+                    </p>
+
+                    <p class="container3__items-productname-color">
+                      24.490.000₫
+                    </p>
+                    <p class="container3__items-productname-sadow">
+                      Tặng gói bảo hành Gold trị giá 300K
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </form>
+          </div>
+
+          <div class="container3__items-productmain">
+            <form>
+              <figure class="container3__items-productmain1">
+                <span>Trả góp 0%</span>
+                <a href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/571947601-jpeg.jpg?v=1639734159007"
+                    alt=""
+                  />
+                </a>
+                <figcaption>
+                  <div class="container3__items-productname">
+                    <p class="container3__items-productname-size">
+                      Điện thoại iPhone 13
+                    </p>
+
+                    <p class="container3__items-productname-color">
+                      24.490.000₫
+                    </p>
+                    <p class="container3__items-productname-sadow">
+                      Tặng gói bảo hành Gold trị giá 300K
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </form>
+          </div>
+          <div class="container3__items-productmain">
+            <form>
+              <figure class="container3__items-productmain1">
+                <span>Trả góp 0%</span>
+                <a href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/571947601-jpeg.jpg?v=1639734159007"
+                    alt=""
+                  />
+                </a>
+                <figcaption>
+                  <div class="container3__items-productname">
+                    <p class="container3__items-productname-size">
+                      Điện thoại iPhone 13
+                    </p>
+
+                    <p class="container3__items-productname-color">
+                      24.490.000₫
+                    </p>
+                    <p class="container3__items-productname-sadow">
+                      Tặng gói bảo hành Gold trị giá 300K
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="container9">
+        <div class="contaier8__infor">
+          <p class="contaier8__infor-heading">ÂM THANH</p>
+          <div class="contaier8__infor-button">
+            <button class="contaier8__infor-button1">
+              <a href="">Cáp sạc</a>
+            </button>
+            <button class="contaier8__infor-button1">
+              <a href="">Củ sạc</a>
+            </button>
+            <button class="contaier8__infor-button1">
+              <a href="">Miếng dán màn hình</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="container8__item">
+          <div class="container3__items-productmain">
+            <form>
+              <figure class="container3__items-productmain1">
+                <span>Trả góp 0%</span>
+                <a href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/571947601-jpeg.jpg?v=1639734159007"
+                    alt=""
+                  />
+                </a>
+                <figcaption>
+                  <div class="container3__items-productname">
+                    <p class="container3__items-productname-size">
+                      Điện thoại iPhone 13
+                    </p>
+
+                    <p class="container3__items-productname-color">
+                      24.490.000₫
+                    </p>
+                    <p class="container3__items-productname-sadow">
+                      Tặng gói bảo hành Gold trị giá 300K
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </form>
+          </div>
+
+          <div class="container3__items-productmain">
+            <form>
+              <figure class="container3__items-productmain1">
+                <span>Trả góp 0%</span>
+                <a href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/571947601-jpeg.jpg?v=1639734159007"
+                    alt=""
+                  />
+                </a>
+                <figcaption>
+                  <div class="container3__items-productname">
+                    <p class="container3__items-productname-size">
+                      Điện thoại iPhone 13
+                    </p>
+
+                    <p class="container3__items-productname-color">
+                      24.490.000₫
+                    </p>
+                    <p class="container3__items-productname-sadow">
+                      Tặng gói bảo hành Gold trị giá 300K
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </form>
+          </div>
+
+          <div class="container3__items-productmain">
+            <form>
+              <figure class="container3__items-productmain1">
+                <span>Trả góp 0%</span>
+                <a href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/571947601-jpeg.jpg?v=1639734159007"
+                    alt=""
+                  />
+                </a>
+                <figcaption>
+                  <div class="container3__items-productname">
+                    <p class="container3__items-productname-size">
+                      Điện thoại iPhone 13
+                    </p>
+
+                    <p class="container3__items-productname-color">
+                      24.490.000₫
+                    </p>
+                    <p class="container3__items-productname-sadow">
+                      Tặng gói bảo hành Gold trị giá 300K
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </form>
+          </div>
+
+          <div class="container3__items-productmain">
+            <form>
+              <figure class="container3__items-productmain1">
+                <span>Trả góp 0%</span>
+                <a href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/571947601-jpeg.jpg?v=1639734159007"
+                    alt=""
+                  />
+                </a>
+                <figcaption>
+                  <div class="container3__items-productname">
+                    <p class="container3__items-productname-size">
+                      Điện thoại iPhone 13
+                    </p>
+
+                    <p class="container3__items-productname-color">
+                      24.490.000₫
+                    </p>
+                    <p class="container3__items-productname-sadow">
+                      Tặng gói bảo hành Gold trị giá 300K
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </form>
+          </div>
+          <div class="container3__items-productmain">
+            <form>
+              <figure class="container3__items-productmain1">
+                <span>Trả góp 0%</span>
+                <a href="">
+                  <img
+                    src="https://bizweb.dktcdn.net/thumb/medium/100/441/086/products/571947601-jpeg.jpg?v=1639734159007"
+                    alt=""
+                  />
+                </a>
+                <figcaption>
+                  <div class="container3__items-productname">
+                    <p class="container3__items-productname-size">
+                      Điện thoại iPhone 13
+                    </p>
+
+                    <p class="container3__items-productname-color">
+                      24.490.000₫
+                    </p>
+                    <p class="container3__items-productname-sadow">
+                      Tặng gói bảo hành Gold trị giá 300K
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer1">
+        <div class="footer1__logo">
+          <a href="">
+            <img
+              src="https://bizweb.dktcdn.net/100/441/086/themes/896335/assets/logo.png?1688958482989"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="footer1__address">
+          <i
+            class="fa-solid fa-location-dot fa-sm"
+            style="color: var(--white)"
+          ></i>
+          <span class="footer1-span"
+            >Địa chỉ : 70 Lu Gia, District 11, Hồ Chi Minh City.</span
+          >
+        </div>
+        <div class="footer__phone">
+          <i
+            class="fa-solid fa-mobile-screen fa-sm"
+            style="color: var(--white)"
+          ></i>
+          <span class="footer1-span">Số điện thoại : 19006750</span>
+        </div>
+        <div class="footer__email">
+          <i class="fa-solid fa-envelope fa-sm" style="color: var(--white)"></i>
+          <span class="footer1-span">Email : support@sapo.vn</span>
+        </div>
+        <div class="footer1__pp">
+          <span class="footer1-span">| Cung cấp bởi </span>
+          <a href="">Sapo</a>
+        </div>
+      </section>
+
+      <section class="footer2">
+        <div class="footer2__list">
+          <div class="footer2__list1">
+            <p class="footer2__list1-head">CHÍNH SÁCH</p>
+            <p>Giới thiệu</p>
+            <p>Hệ thống cửa hàng</p>
+            <p>Câu hỏi thường gặp</p>
+            <p>Gọi điện đặt hàng</p>
+          </div>
+          <div class="footer2__list2">
+            <p class="footer2__list2-head">HỖ TRỢ KHÁCH HÀNG</p>
+            <p>Thông tin liên hệ</p>
+            <p>Chính sách giao hàng</p>
+            <p>Chính sách đổi hàng</p>
+            <p>Chính sách bán hàng</p>
+          </div>
+          <div class="footer2__list3">
+            <p class="footer2__list3-head">ĐĂNG KÝ NHẬN TIN</p>
+            <p>Bạn có muốn nhận khuyến mãi đặc biệt? Đăng ký ngay.</p>
+            <form class="footer2__list3-email">
+              <input type="email" id="email" placeholder="Nhập địa chỉ email" />
+              <a href=""><button>Đăng ký</button></a>
+            </form>
+            <div class="">
+              <ul class="footer2__list3-icon">
+                <li>
+                  <a href="">
+                    <img
+                      src="https://bizweb.dktcdn.net/100/448/042/themes/910197/assets/facebook.png?1691718307047"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img
+                      src="https://bizweb.dktcdn.net/100/448/042/themes/910197/assets/zalo.png?1691718307047"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img
+                      src="https://bizweb.dktcdn.net/100/448/042/themes/910197/assets/instagram.png?1691718307047"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img
+                      src="https://bizweb.dktcdn.net/100/448/042/themes/910197/assets/youtube.png?1691718307047"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <img
+                      src="https://bizweb.dktcdn.net/100/448/042/themes/910197/assets/tiktok.png?1691718307047"
+                      alt=""
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer2__list4">
+          <a href="">
+            <img
+              src="https://bizweb.dktcdn.net/100/448/042/themes/910197/assets/footer_trustbadge.png?1691718307047"
+              alt=""
+            />
+          </a>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

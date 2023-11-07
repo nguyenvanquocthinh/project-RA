@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  background-color: var(--white);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+:root {
+  --white: #ffffff;
+  --red: #dd0115;
+  --yellow: #fbd947;
+  --fontsize-all: 14px;
+  --green: #2f4858;
+  --black: #333333;
+  --xam: #f0f0f0;
+}

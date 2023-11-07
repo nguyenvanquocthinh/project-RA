@@ -1,0 +1,128 @@
+.carousel-indicators button,
+.carousel-control-prev,
+.carousel-control-next {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  border: 2px solid #818181;
+  border-radius: 25px;
+  padding: 23px;
+  background-color: #c6c6c7;
+}
+
+.picture-size {
+  width: 1204px !important;
+  height: 307px !important;
+}
+
+.container2__heading {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.title__container2 {
+  border-right: 1px solid #999999 !important ;
+}
+
+.aside1 {
+  border-bottom: 1px solid #999999 !important;
+}
+
+.aside2 {
+  border-bottom: 1px solid #999999 !important;
+}
+
+.aside3 {
+  border-bottom: 1px solid #999999 !important;
+}
+
+.product__container2-title {
+  font-size: 23px;
+}
+
+.container__con {
+  display: flex;
+}
+
+.product__container2-menu-items {
+  display: flex;
+}
+
+.product__container2-menu-items-ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding-left: 20px;
+}
+
+.product__container2-menu-items-ul-li a {
+  color: rgb(105, 104, 104);
+  font-size: 14px;
+}
+
+.product__container2-menu-items-ul-li a:hover {
+  color: var(--red);
+}
+/* container2 */
+
+.container3__items-productmain1 span {
+  color: var(--black);
+  background-color: var(--xam);
+  border-color: var(--xam);
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  padding: 5px;
+  margin: 3px;
+}
+
+.container3__items-productmain {
+  margin: 0 5px;
+  padding-bottom: 20px;
+}
+
+.container3__items-productname-size {
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+.container3__items-productname-color {
+  color: var(--red);
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.container3__items-productname-sadow {
+  box-shadow: 0, 0, 4px;
+  font-size: 12px;
+  width: 235px;
+  padding: 5px;
+  text-align: center;
+  border-left: 5px solid var(--red);
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  margin-top: 12px;
+}
+
+.container3__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 1360px;
+}
+
+.title__container2 {
+  width: 500px;
+}
+
+.product__container2-products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container__con {
+  margin: 65px 150px;
+}

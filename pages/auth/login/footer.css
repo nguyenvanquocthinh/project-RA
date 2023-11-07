@@ -1,0 +1,114 @@
+footer {
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  height: 370px;
+}
+
+.footer1 {
+  line-height: 30px;
+  width: 250px;
+}
+
+.footer1-span {
+  color: var(--black);
+}
+
+.footer1__pp a {
+  color: var(--red);
+}
+
+/* footer1  */
+
+.footer2 {
+  margin-top: 50px;
+}
+
+.footer2__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+}
+
+.footer2__list1 {
+  color: var(--black);
+  line-height: 30px;
+}
+
+.footer2__list2 {
+  color: var(--black);
+  line-height: 30px;
+}
+
+.footer2__list3 {
+  color: var(--black);
+  line-height: 30px;
+  width: 300px;
+  margin-top: 57px;
+}
+
+.footer2__list4 {
+  color: var(--black);
+  line-height: 30px;
+}
+
+.footer2__list1-head {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.footer2__list2-head {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.footer2__list3-head {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.footer2__list3-email {
+  display: flex;
+  border: 2px solid var(--black);
+  border-radius: 10px;
+  width: 278px;
+  background-color: var(--black);
+  margin: 13px 0;
+}
+
+.footer2__list3-email input {
+  width: 275px;
+  height: 43px;
+  padding: 10px;
+  border: 2px solid var(--black);
+  border-radius: 10px;
+  background-color: var(--black);
+}
+
+.footer2__list3-email button {
+  width: 80px;
+  height: 43px;
+  border: 2px solid;
+  border-radius: 10px;
+  background-color: black;
+  color: var(--white);
+}
+
+.footer2__list3-email button:hover {
+  background-color: rgb(39, 38, 38);
+  color: white;
+}
+
+.footer2__list3-icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer2__list4 img {
+  padding: 30px 0;
+}

@@ -1,0 +1,144 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 350px;
+  padding: 25px 0;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__logo span {
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--black);
+}
+
+.header__help a {
+  font-size: 16px;
+  color: var(--red);
+}
+
+/* header */
+
+.auth__background1 {
+  background-image: linear-gradient(
+    to right,
+    var(--red),
+    #ee4d2d,
+    #ee4d2d,
+    #ee4d2d,
+    #ee4d2d,
+    #ee4d2d
+  );
+
+  padding: 300px;
+}
+
+.auth__background2 {
+  background-image: url(https://down-vn.img.susercontent.com/file/sg-11134004-7rbnd-ln2u4n7zfkag0a);
+  padding: 300px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 300px;
+  position: absolute;
+  width: 100%;
+  top: 100px;
+}
+
+.auth__form {
+  box-shadow: 0 3px 6px rgba(58, 56, 56, 0.3);
+  padding: 0 10px;
+  background-color: var(--white);
+  width: 401px;
+  height: 483px;
+  position: absolute;
+  top: 160px;
+  right: 60px;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+}
+
+.auth__form-heading {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.form-height {
+  height: 40px;
+  width: 338px;
+  border: 2px solid rgb(188, 182, 182);
+  margin-top: 33px;
+  padding: 15px;
+}
+
+.auth__form-btn-color {
+  width: 338px;
+  height: 38px;
+  background-color: var(--red);
+  margin-top: 33px;
+}
+
+.auth__form-btn-color-a {
+  padding: 10px 128px;
+  color: var(--white);
+}
+
+.auth__form-foget {
+  display: flex;
+  gap: 118px;
+}
+
+.auth__form-foget a {
+  font-size: 13px;
+  color: #0055aa;
+  padding: 10px 0;
+}
+
+.block-social {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.auth__form-Span-p {
+  width: 150px;
+  height: 1px;
+  background-color: #dbdbdb;
+}
+
+.auth__form-Span-midle {
+  font-size: 13px;
+  color: #dbdbdb;
+}
+
+.auth__form-Span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.block-social {
+  margin-top: 20px;
+}
+
+.auth__form-policy {
+  font-size: 14px;
+  color: rgb(188, 182, 182);
+  text-align: center;
+  padding-top: 45px;
+}
+
+.auth__form-link {
+  color: var(--red);
+  font-size: 14px;
+}
+
+.auth__form1 {
+  padding: 23px 20px;
+}

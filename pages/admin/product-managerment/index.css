@@ -1,0 +1,265 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0px 0 4px;
+}
+
+.header__admin {
+  border-bottom: 3px solid #999999;
+  text-align: center;
+  width: 300px;
+}
+
+.header__admin img {
+  width: 35%;
+  padding: 10px 0;
+}
+
+.header__admin p {
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.header__admin-buttom {
+  padding: 7px 8px;
+  border: 1px solid #41aaf1;
+  border-radius: 5px;
+  background-color: #41aaf1;
+  margin-bottom: 25px;
+}
+
+.header__admin-buttom a {
+  padding: 20px;
+  color: var(--white);
+  font-weight: 600;
+}
+
+.header__nav-ul {
+  padding: 30px 10px;
+}
+
+.header__nav-ul-li {
+  font-weight: 600;
+  padding: 18px 0;
+  padding-left: 10px;
+}
+
+.header__nav-ul-li a {
+  padding: 20px 160px 20px 0px;
+}
+
+.header__nav-ul-li:hover {
+  background-color: rgb(197, 224, 221);
+}
+
+/* header */
+
+main {
+  background-color: var(--xam);
+  padding: 30px 0 608px 55px;
+  margin-left: 301px;
+}
+
+.section1 {
+  display: none;
+}
+
+.container1__users {
+  background-color: rgb(203, 231, 255);
+  width: 350px;
+  height: 200px;
+  padding: 0 10px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+}
+
+.p-heading {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.container1__users p {
+  font-size: 25px;
+  color: var(--white);
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.container1__users2 {
+  background-color: rgb(167, 226, 201);
+  width: 350px;
+  height: 200px;
+  padding: 0 10px;
+}
+
+.container1__users2 p {
+  font-size: 25px;
+  color: var(--white);
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.container1__users3 {
+  background-color: rgb(226, 167, 207);
+  width: 350px;
+  height: 200px;
+  padding: 20px 10px;
+}
+
+.container1__users3 p {
+  font-size: 25px;
+  color: var(--white);
+  font-weight: 700;
+  line-height: 50px;
+}
+
+/* session1 */
+
+.form1 {
+  /* display: none; */
+  background-color: var(--white);
+  width: 1100px;
+  padding: 20px;
+  border: 1px solid var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 1px 7px -2px;
+}
+
+.form1 p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.form1__search {
+  display: flex;
+  margin-top: 20px;
+}
+
+.form1__search input {
+  width: 100%;
+  height: 40px;
+  border: 2px solid #bcbdbc;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.form1__search-button {
+  padding: 5px 50px;
+  background-color: #41aaf1;
+  border: 2px solid #41aaf1;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.form1__table {
+  margin-top: 12px;
+  width: 100%;
+}
+
+.form1__table-heading {
+  background-color: #222e9c;
+  height: 30px;
+}
+
+.form1__table-heading th {
+  color: var(--white);
+}
+
+.form1__table-row {
+  height: 50px;
+  background-color: var(--xam);
+}
+
+.form1__table-row:hover {
+  background-color: #d7edfa;
+}
+
+.form1__table-row td {
+  text-align: center;
+}
+
+.button1-form1__table-row {
+  background-color: #51bcd2;
+  width: 70px;
+  height: 25px;
+  border: 1px solid #51bcd2;
+  border-radius: 4px;
+}
+
+.button2-form1__table-row {
+  background-color: #eb4726;
+  width: 70px;
+  height: 25px;
+  border: 1px solid #eb4726;
+  border-radius: 4px;
+}
+
+.button1-form1__table-row a {
+  padding: 6px 19px;
+  color: var(--white);
+  font-size: 15px;
+}
+
+.button2-form1__table-row a {
+  padding: 6px 10px;
+  color: var(--white);
+  font-size: 15px;
+}
+
+/* form1  */
+
+.form2 {
+  display: none;
+  background-color: var(--white);
+  width: 1100px;
+  padding: 20px;
+  border: 1px solid var(--white);
+  border-radius: 10px;
+  box-shadow: 0px 1px 7px -2px;
+  margin: 50px 0;
+}
+
+.form2__heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form2__heading p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.form2__heading-button {
+  background-color: #41aaf1;
+  width: 105px;
+  border: 1px solid #41aaf1;
+  border-radius: 5px;
+}
+
+.form2__heading-button a {
+  color: var(--white);
+}
+
+.button3-form1__table-row {
+  background-color: #0080ff;
+  width: 70px;
+  height: 25px;
+  border: 1px solid #0080ff;
+  border-radius: 4px;
+}
+
+.button3-form1__table-row a {
+  padding: 6px 19px;
+  color: var(--white);
+  font-size: 15px;
+}
+
+/* section2  */
